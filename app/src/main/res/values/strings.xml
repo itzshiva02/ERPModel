@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ERP Model</string>
+    <string name="pswd">Password</string>
+    <string name="password">Enter Your Password</string>
+    <string name="company">Enter Your Company Name</string>
+    <string name="cmpy">Company Name</string>
+    <string name="submit">Submit</string>
+</resources>

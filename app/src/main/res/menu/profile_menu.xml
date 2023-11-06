@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="My Profile"
+        android:icon="@drawable/person"/>
+    <item android:title="About Us"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item android:title="Settings"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item android:title="Logout"
+        android:icon="@drawable/ic_launcher_background"/>
+
+</menu>
