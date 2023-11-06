@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="FIRSTNAME LASTNAME"
+                android:text="Manager / HR"
                 android:textAllCaps="true"
                 android:textColor="#4CAF50"
                 android:textSize="16sp"
