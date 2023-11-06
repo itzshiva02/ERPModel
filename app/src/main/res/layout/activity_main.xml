@@ -38,9 +38,9 @@
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
         android:letterSpacing="0.025"
-        android:text="Enterprise Resource Mana"
+        android:text="Enterprise Resource Management"
         android:textColor="@color/white"
-        android:textSize="28sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/backB"
         app:layout_constraintTop_toTopOf="parent" />
