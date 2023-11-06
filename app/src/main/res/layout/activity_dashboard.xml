@@ -48,8 +48,8 @@
                 android:gravity="center"
                 >
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/person"/>
                 <TextView
@@ -92,8 +92,8 @@
                 android:gravity="center"
                 >
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/person"/>
                 <TextView
@@ -147,8 +147,8 @@
                     tools:ignore="TextSizeCheck" />
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/graph"/>
 
@@ -187,8 +187,8 @@
                     tools:ignore="TextSizeCheck" />
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/graph"/>
 

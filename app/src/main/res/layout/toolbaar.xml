@@ -33,7 +33,6 @@
             </LinearLayout>
 
         </androidx.appcompat.widget.Toolbar>
-
         <include layout="@layout/activity_dashboard"/>
     </com.google.android.material.appbar.AppBarLayout>
 
