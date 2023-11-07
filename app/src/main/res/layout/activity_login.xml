@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Login"
     android:gravity="center"
-    android:background="#A7ACD3">
-
+    android:background="#A7ACD3"
+    android:id="@+id/llLogin">
     <androidx.cardview.widget.CardView
         android:layout_width="270dp"
         android:layout_height="400dp"
@@ -29,21 +29,24 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cmpy"
                 android:layout_marginLeft="10dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:id="@+id/tvLoginComName"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_margin="10dp"
                 android:hint="@string/company"
-                android:inputType="text"/>
+                android:inputType="text"
+                android:id="@+id/etLoginComName"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pswd"
                 android:textColor="@color/black"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvLoginPassword"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -51,6 +54,7 @@
                 android:layout_margin="10dp"
                 android:hint="@string/password"
                 android:inputType="textPassword"
+                android:id="@+id/etLoginPassword"
                 />
 
             <Button
@@ -59,8 +63,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:backgroundTint="@color/purple_200"
-                android:text="@string/submit"
-
+                android:text="Submit"
+                android:id="@+id/btnLogin"
                 />
 
 

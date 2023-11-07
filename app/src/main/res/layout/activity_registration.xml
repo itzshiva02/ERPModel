@@ -7,6 +7,7 @@
     tools:context=".Registration"
     android:orientation="vertical"
     android:background="#B5B7CC"
+    android:id="@+id/llRegister"
     >
 
     <TextView
@@ -16,6 +17,7 @@
         android:layout_gravity="center"
         android:textSize="20dp"
         android:textColor="@color/black"
+        android:layout_marginVertical="20dp"
         />
 
     <TextView
@@ -23,6 +25,7 @@
         android:layout_height="wrap_content"
         android:text="Company Name"
         android:textColor="@color/black"
+        android:id="@+id/tvCompanyName"
         />
 
     <EditText
@@ -30,6 +33,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/company"
         android:inputType="text"
+        android:id="@+id/etCompanyName"
         />
 
     <TextView
@@ -37,6 +41,7 @@
         android:layout_height="wrap_content"
         android:text="Mobile Number"
         android:textColor="@color/black"
+        android:id="@+id/tvMobNum"
         />
 
     <EditText
@@ -44,6 +49,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter Your Mobile Number "
         android:inputType="phone"
+        android:id="@+id/etMobNum"
         />
 
     <TextView
@@ -51,19 +57,22 @@
         android:layout_height="wrap_content"
         android:text="Email"
         android:textColor="@color/black"
+        android:id="@+id/tvEmail"
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:hint="Enter Company's Email Address"/>
+        android:hint="Enter Company's Email Address"
+        android:id="@+id/etEmail"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GST Number"
         android:textColor="@color/black"
+        android:id="@+id/tvGST"
         />
 
     <EditText
@@ -71,43 +80,26 @@
         android:layout_height="wrap_content"
         android:inputType="textCapCharacters"
         android:hint="Enter Your Company's GST Number"
+        android:id="@+id/etGST"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bank Details"
+        android:text="Company PAN Number"
         android:textColor="@color/black"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Company Pancard"
-        android:textColor="@color/black"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Company Image"
-        android:textColor="@color/black"
+        android:id="@+id/tvPAN"
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:inputType="textCapCharacters"
+        android:id="@+id/etPAN"
+        android:hint="Enter Your Company PAN"/>
 
     <TextView
+        android:id="@+id/tvpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
@@ -115,6 +107,7 @@
         />
 
     <EditText
+        android:id="@+id/etpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textVisiblePassword"
@@ -126,6 +119,8 @@
         android:layout_gravity="center"
         android:text="Register"
         android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnRegister"
         />
 
 
