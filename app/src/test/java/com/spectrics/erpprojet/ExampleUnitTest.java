@@ -1,4 +1,4 @@
-package com.example.erpmodel;
+package com.spectrics.erpprojet;
 
 import org.junit.Test;
 

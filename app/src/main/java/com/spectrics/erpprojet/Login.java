@@ -1,17 +1,14 @@
-package com.example.erpmodel;
+package com.spectrics.erpprojet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
-
-
-
+        setContentView(R.layout.activity_login);
     }
 }

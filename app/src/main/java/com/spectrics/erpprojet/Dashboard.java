@@ -1,4 +1,4 @@
-package com.example.erpmodel;
+package com.spectrics.erpprojet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
