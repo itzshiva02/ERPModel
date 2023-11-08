@@ -1,7 +1,7 @@
 package com.spectrics.erpprojet;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import com.spectrics.erpproject.R;
 import android.os.Bundle;
 
 public class Registration extends AppCompatActivity {

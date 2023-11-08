@@ -11,21 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.ERPModel"
-        tools:targetApi="31">
+        tools:targetApi="32">
         <activity
-            android:name=".Dashboard"
+            android:name="com.spectrics.erpprojet.Dashboard"
             android:exported="false"
            />
         <activity
-            android:name=".Registration"
+            android:name="com.spectrics.erpprojet.Registration"
             android:exported="false">
 
         </activity>
         <activity
-            android:name=".Login"
+            android:name="com.spectrics.erpprojet.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.spectrics.erpprojet.MainActivity"
             android:exported="true"
             >
             <intent-filter>

@@ -1,10 +1,11 @@
 package com.spectrics.erpprojet;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.spectrics.erpproject.R;
 
 import android.os.Bundle;
 
-public class Login extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

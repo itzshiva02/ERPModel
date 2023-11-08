@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ERPModel"
+rootProject.name = "erpproject"
 include ':app'
