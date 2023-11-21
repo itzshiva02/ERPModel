@@ -17,6 +17,10 @@
             android:exported="false"
            />
         <activity
+            android:name="com.spectrics.erpprojet.SignupActivity"
+            android:exported="false"
+            />
+        <activity
             android:name="com.spectrics.erpprojet.Registration"
             android:exported="false">
 
@@ -28,6 +32,7 @@
             android:name="com.spectrics.erpprojet.MainActivity"
             android:exported="true"
             >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

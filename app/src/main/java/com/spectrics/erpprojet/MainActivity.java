@@ -9,85 +9,39 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.FirebaseApp;
 import com.spectrics.erpproject.R;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
+;
+
+
+
+import android.content.Intent;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Handler;
+import android.view.WindowManager;
 
 public class MainActivity extends AppCompatActivity {
-
-    TextView profileName, profileEmail, profileUsername, profilePassword;
-    TextView titleName, titleUsername;
-    Button editProfile;
+    private static final int SPLASH_SCREEN_TIME_OUT = 2000; // After completion of 2000 ms, the next activity will get started.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-//        profileName = findViewById(R.id.profileName);
-//        profileEmail = findViewById(R.id.profileEmail);
-//        profileUsername = findViewById(R.id.profileUsername);
-//        profilePassword = findViewById(R.id.profilePassword);
-//        titleName = findViewById(R.id.titleName);
-//        titleUsername = findViewById(R.id.titleUsername);
-//        editProfile = findViewById(R.id.editButton);
+        // This method is used so that your splash activity can cover the entire screen.
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        
-
+        setContentView(R.layout.activity_splash); // this will bind your MainActivity.class file with activity_main.
+        FirebaseApp.initializeApp(getApplicationContext());
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                // Intent is used to switch from one activity to another.
+                Intent i = new Intent(MainActivity.this, SignupActivity.class);
+                startActivity(i); // invoke the SecondActivity.
+                finish(); // the current activity will get finished.
+            }
+        }, SPLASH_SCREEN_TIME_OUT);
     }
 }
-//    public void showAllUserData(){
-//        Intent intent = getIntent();
-//        String nameUser = intent.getStringExtra("name");
-//        String emailUser = intent.getStringExtra("email");
-//        String usernameUser = intent.getStringExtra("username");
-//        String passwordUser = intent.getStringExtra("password");
-//
-//        titleName.setText(nameUser);
-//        titleUsername.setText(usernameUser);
-//        profileName.setText(nameUser);
-//        profileEmail.setText(emailUser);
-//        profileUsername.setText(usernameUser);
-//        profilePassword.setText(passwordUser);
-//    }
-
-//    public void passUserData(){
-//        String userUsername = profileUsername.getText().toString().trim();
-//
-//        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("users");
-//        Query checkUserDatabase = reference.orderByChild("username").equalTo(userUsername);
-//
-//        checkUserDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot snapshot) {
-//
-//                if (snapshot.exists()){
-//
-//                    String nameFromDB = snapshot.child(userUsername).child("name").getValue(String.class);
-//                    String emailFromDB = snapshot.child(userUsername).child("email").getValue(String.class);
-//                    String usernameFromDB = snapshot.child(userUsername).child("username").getValue(String.class);
-//                    String passwordFromDB = snapshot.child(userUsername).child("password").getValue(String.class);
-//
-//                    Intent intent = new Intent(MainActivity.this, EditProfileActivity.class);
-//
-//                    intent.putExtra("name", nameFromDB);
-//                    intent.putExtra("email", emailFromDB);
-//                    intent.putExtra("username", usernameFromDB);
-//                    intent.putExtra("password", passwordFromDB);
-//
-//                    startActivity(intent);
-//
-//                }
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError error) {
-//
-//            }
-//        });
-//    }
-//}
