@@ -53,7 +53,7 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
 //        edtOTP = findViewById(R.id.idEdtOtp);
-        verifyOTPBtn = findViewById(R.id.idBtnVerify);
+//        verifyOTPBtn = findViewById(R.id.idBtnVerify);
         signupName = findViewById(R.id.signup_name);
         signupPhone = findViewById(R.id.signup_phone);
         signupEmail = findViewById(R.id.signup_email);
