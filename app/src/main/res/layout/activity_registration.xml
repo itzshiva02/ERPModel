@@ -58,6 +58,18 @@
                 android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/white"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/signup_phone"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="Mobile No."
+                android:inputType="phone"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="8dp"
+                android:textColor="@color/white"/>
 
 
             <EditText
@@ -71,6 +83,7 @@
                 android:drawableLeft="@drawable/ic_baseline_person_pin_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
+
 
             <EditText
                 android:layout_width="match_parent"
