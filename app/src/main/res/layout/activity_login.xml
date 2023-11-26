@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.spectrics.erpprojet.LoginActivity"
+    tools:context="com.spectrics.erpproject.LoginActivity"
     android:gravity="center"
     android:background="@drawable/pagebkg"
     android:id="@+id/llLogin">
@@ -16,8 +16,8 @@
         app:cardBackgroundColor="#00ffffff"
         android:layout_marginBottom="30dp"
         android:elevation="50dp"
-        android:outlineAmbientShadowColor="@color/white"
-        android:outlineSpotShadowColor="@color/white"
+        android:outlineAmbientShadowColor="@color/whiteTextColor"
+        android:outlineSpotShadowColor="@color/whiteTextColor"
         >
 
         <LinearLayout
@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cmpy"
                 android:layout_marginLeft="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/whiteTextColor"
                 android:textStyle="bold"
                 android:id="@+id/tvLoginComName"/>
 
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pswd"
-                android:textColor="@color/white"
+                android:textColor="@color/whiteTextColor"
                 android:layout_marginLeft="10dp"
                 android:id="@+id/tvLoginPassword"/>
 
@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:backgroundTint="@color/purple_200"
+                android:backgroundTint="@color/purple"
                 android:text="Submit"
                 android:id="@+id/btnLogin"
                 />

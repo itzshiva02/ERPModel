@@ -1,4 +1,4 @@
-package com.spectrics.erpprojet;
+package com.spectrics.erpproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.spectrics.erpproject.R;
+
 public class EditProfileActivity extends AppCompatActivity {
 
     EditText editName, editEmail, editUsername, editPassword;

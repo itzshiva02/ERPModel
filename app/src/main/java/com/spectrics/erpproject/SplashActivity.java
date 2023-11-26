@@ -1,11 +1,9 @@
-package com.spectrics.erpprojet;
+package com.spectrics.erpproject;
 
 import android.content.Intent;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.spectrics.erpproject.R;
 
 public class SplashActivity extends AppCompatActivity {
 

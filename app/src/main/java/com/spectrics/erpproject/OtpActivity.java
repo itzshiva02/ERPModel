@@ -1,4 +1,4 @@
-package com.spectrics.erpprojet;
+package com.spectrics.erpproject;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,7 +19,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
-import com.spectrics.erpproject.R;
 
 import java.util.concurrent.TimeUnit;
 

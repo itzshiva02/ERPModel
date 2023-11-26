@@ -16,21 +16,21 @@
         android:theme="@style/Base.Theme.ERPModel"
         tools:targetApi="32">
         <activity
-            android:name="com.spectrics.erpprojet.OtpActivity"
+            android:name="com.spectrics.erpproject.OtpActivity"
             android:exported="false" />
         <activity
-            android:name="com.spectrics.erpprojet.Dashboard"
+            android:name="com.spectrics.erpproject.Dashboard"
             android:exported="false" />
         <activity
-            android:name="com.spectrics.erpprojet.SignupActivity"
+            android:name="com.spectrics.erpproject.SignupActivity"
             android:exported="false" />
 
 
         <activity
-            android:name="com.spectrics.erpprojet.LoginActivity"
+            android:name="com.spectrics.erpproject.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.spectrics.erpprojet.MainActivity"
+            android:name="com.spectrics.erpproject.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

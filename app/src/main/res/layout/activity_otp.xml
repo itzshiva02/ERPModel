@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context="com.spectrics.erpprojet.OtpActivity">
+    android:background="@color/whiteTextColor"
+    tools:context="com.spectrics.erpproject.OtpActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
             android:padding="5dp"
             android:src="@drawable/general_close_icon"
             android:contentDescription="@string/todo"
-            app:tint="@color/black" />
+            app:tint="@color/blackTextColor" />
 
         <ImageView
 
@@ -34,7 +34,7 @@
             android:text="Verification"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="@color/black"
+            android:textColor="@color/blackTextColor"
             android:textSize="24sp" />
         <TextView
             android:id="@+id/otp_description_text"
@@ -46,7 +46,7 @@
             android:includeFontPadding="false"
             android:text="Enter One Time Password Sent On"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/blackTextColor"
             android:textSize="16sp" />
         <com.chaos.view.PinView
             android:id="@+id/editOtp"
@@ -58,13 +58,13 @@
             android:cursorVisible="true"
             android:inputType="number"
             android:itemBackground="#65EAEAEA"
-            app:cursorColor="@color/black"
+            app:cursorColor="@color/blackTextColor"
             app:hideLineWhenFilled="true"
             app:itemCount="6"
             app:itemHeight="50dp"
             app:itemRadius="5dp"
             app:itemWidth="50dp"
-            app:lineColor="@color/Lavender"
+            app:lineColor="#E6E6FA"
             app:lineWidth="1dp" />
 
         <Button
@@ -75,7 +75,7 @@
             android:layout_marginTop="30dp"
             android:background="#FF4053B8"
             android:text="@string/verify_code"
-            android:textColor="@color/black"
+            android:textColor="@color/blackTextColor"
             android:transitionName="transition_OTP_screen"
 
             tools:ignore="OnClick" />

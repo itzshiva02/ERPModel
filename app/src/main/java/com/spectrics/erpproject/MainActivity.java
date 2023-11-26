@@ -1,4 +1,4 @@
-package com.spectrics.erpprojet;
+package com.spectrics.erpproject;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,6 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.FirebaseApp;
-import com.spectrics.erpproject.R;
 
 ;
 

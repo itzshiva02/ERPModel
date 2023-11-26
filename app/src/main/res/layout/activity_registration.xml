@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="#AC9EC1"
-    tools:context="com.spectrics.erpprojet.SignupActivity">
+    tools:context="com.spectrics.erpproject.SignupActivity">
 
 
 
@@ -17,7 +17,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/whiteTextColor"
         app:cardUseCompatPadding="true"
         app:cardCornerRadius="15dp">
 
@@ -53,7 +53,8 @@
                 android:hint="Name"
                 android:drawableLeft="@drawable/ic_baseline_person_24"
                 android:drawablePadding="8dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/blackTextColor"
+                android:autofillHints="name" />
 
             <EditText
                 android:layout_width="300dp"
@@ -66,7 +67,8 @@
                 android:hint="Email"
                 android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:drawablePadding="8dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/blackTextColor"
+                android:autofillHints="emailAddress" />
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="50dp"
@@ -79,7 +81,8 @@
                 android:inputType="phone"
                 android:drawableLeft="@drawable/ic_phone"
                 android:drawablePadding="8dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/blackTextColor"
+                android:autofillHints="phone" />
 
 
             <EditText
@@ -93,7 +96,8 @@
                 android:hint="Username"
                 android:drawableLeft="@drawable/ic_baseline_person_24"
                 android:drawablePadding="8dp"
-                android:textColor="@color/black" />
+                android:textColor="@color/blackTextColor"
+                android:autofillHints="username" />
 
 
             <EditText
@@ -108,7 +112,8 @@
                 android:inputType="textPassword"
                 android:drawableLeft="@drawable/ic_baseline_lock_24"
                 android:drawablePadding="8dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/blackTextColor"
+                android:autofillHints="password" />
 
             <Button
                 android:layout_width="250dp"

@@ -1,4 +1,4 @@
-package com.spectrics.erpprojet;
+package com.spectrics.erpproject;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.spectrics.erpproject.R;
 
 public class SignupActivity extends AppCompatActivity {
 
@@ -87,7 +86,7 @@ public class SignupActivity extends AppCompatActivity {
 //                reference.child(username).setValue(helperClass);
 
 
-                 // redirect to otp verification screen
+                // redirect to otp verification screen
                 String phonex = signupPhone.getText().toString();
                 Intent intent = new Intent(SignupActivity.this, OtpActivity.class);
                 intent.putExtra("phone",phonex);

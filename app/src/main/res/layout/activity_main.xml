@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#e4e4e4"
-    tools:context="com.spectrics.erpprojet.Dashboard"
+    tools:context="com.spectrics.erpproject.Dashboard"
     tools:ignore="HardcodedText">
 
     <View
@@ -39,7 +39,7 @@
         android:gravity="center_horizontal"
         android:letterSpacing="0.025"
         android:text="Enterprise Resource Management"
-        android:textColor="@color/white"
+        android:textColor="@color/whiteTextColor"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/backB"
