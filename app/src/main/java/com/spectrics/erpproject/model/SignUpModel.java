@@ -1,7 +1,7 @@
 package com.spectrics.erpproject.model;
 public class SignUpModel {
 
-    String name, email, username, password;
+    String name, email, username, password,status,phone;
 
     public String getName() {
         return name;
@@ -19,6 +19,13 @@ public class SignUpModel {
         this.email = email;
     }
 
+    public String getPhone(){
+        return phone;
+    }
+
+    public void setPhone(String phone){
+        this.phone = phone;
+    }
     public String getUsername() {
         return username;
     }
@@ -35,11 +42,20 @@ public class SignUpModel {
         this.password = password;
     }
 
-    public SignUpModel(String name, String email, String username, String password) {
+    public String getStatus(){
+        return status;
+    }
+
+    public void setStatus(String status){
+        this.status = status;
+    }
+    public SignUpModel(String name, String email, String username, String password,String status) {
         this.name = name;
         this.email = email;
         this.username = username;
         this.password = password;
+        this.status = status;
+        this.phone = phone;
     }
 
 }
