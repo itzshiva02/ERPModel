@@ -49,7 +49,7 @@ public class SignUpModel {
     public void setStatus(String status){
         this.status = status;
     }
-    public SignUpModel(String name, String email, String username, String password,String status) {
+    public SignUpModel(String name, String email,String phone, String username, String password,String status) {
         this.name = name;
         this.email = email;
         this.username = username;

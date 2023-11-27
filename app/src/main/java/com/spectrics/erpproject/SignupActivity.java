@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.spectrics.erpproject.model.SignUpModel;
 
 public class SignupActivity extends AppCompatActivity {
 
@@ -63,7 +64,7 @@ public class SignupActivity extends AppCompatActivity {
                 String username = signupUsername.getText().toString();
                 String password = signupPassword.getText().toString();
                 String phone = signupPhone.getText().toString();
-
+                String status = "true";
                 if (TextUtils.isEmpty(name)) {
                     Toast.makeText(getApplicationContext(), "Enter Your Name!", Toast.LENGTH_SHORT).show();
                     return;
@@ -82,7 +83,7 @@ public class SignupActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Password too short, enter minimum 6 characters!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                HelperClass helperClass = new HelperClass(name, email, username, password);
+                SignUpModel helperClass = new SignUpModel(name,email,phone, username, password, status);
 //                reference.child(username).setValue(helperClass);
 
 
