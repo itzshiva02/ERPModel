@@ -66,7 +66,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="text"
                 android:hint="Client Name"
                 android:layout_marginHorizontal="10dp"
@@ -87,7 +87,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="number"
                 android:hint="Client Id"
                 android:layout_marginHorizontal="10dp"
@@ -108,7 +108,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="phone"
                 android:hint="Mobile Number"
                 android:layout_marginHorizontal="10dp"
@@ -129,7 +129,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="text"
                 android:hint="Address"
                 android:layout_marginHorizontal="10dp"
@@ -150,7 +150,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="textEmailAddress"
                 android:hint="Email"
                 android:layout_marginHorizontal="10dp"
@@ -171,7 +171,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="date"
                 android:hint="Deadline"
                 android:layout_marginHorizontal="10dp"
@@ -192,7 +192,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="number"
                 android:hint="Amount Paid"
                 android:layout_marginHorizontal="10dp"
@@ -213,7 +213,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="text"
                 android:hint="Project Description"
                 android:layout_marginHorizontal="10dp"
@@ -242,7 +242,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/etImage"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="text"
                 android:hint="Select pdf"
                 android:layout_marginHorizontal="10dp"

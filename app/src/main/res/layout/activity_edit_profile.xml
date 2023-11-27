@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/editName"
-                android:background="@drawable/custom_edittext"
+
                 android:layout_marginTop="40dp"
                 android:padding="8dp"
                 android:hint="Name"
@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/editEmail"
-                android:background="@drawable/custom_edittext"
+
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
                 android:hint="Email"
@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/editUsername"
-                android:background="@drawable/custom_edittext"
+
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
                 android:hint="Username"
@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/editPassword"
-                android:background="@drawable/custom_edittext"
+
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
                 android:hint="Password"

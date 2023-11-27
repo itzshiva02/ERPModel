@@ -65,6 +65,7 @@ public class SignupActivity extends AppCompatActivity {
                 String password = signupPassword.getText().toString();
                 String phone = signupPhone.getText().toString();
                 String status = "true";
+
                 if (TextUtils.isEmpty(name)) {
                     Toast.makeText(getApplicationContext(), "Enter Your Name!", Toast.LENGTH_SHORT).show();
                     return;
@@ -83,8 +84,8 @@ public class SignupActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Password too short, enter minimum 6 characters!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                SignUpModel helperClass = new SignUpModel(name,email,phone, username, password, status);
-//                reference.child(username).setValue(helperClass);
+                SignUpModel helperClass = new SignUpModel(name, email,phone, username, password, status);
+                reference.child(username).setValue(helperClass);
 
 
                 // redirect to otp verification screen

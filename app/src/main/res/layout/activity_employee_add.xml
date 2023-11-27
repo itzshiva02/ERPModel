@@ -66,7 +66,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="text"
                 android:hint="Employee Name"
                 android:layout_marginHorizontal="10dp"
@@ -87,7 +87,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="number"
                 android:hint="Employee Id"
                 android:layout_marginHorizontal="10dp"
@@ -108,7 +108,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="phone"
                 android:hint="Mobile Number"
                 android:layout_marginHorizontal="10dp"
@@ -129,7 +129,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="text"
                 android:hint="Address"
                 android:layout_marginHorizontal="10dp"
@@ -150,7 +150,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="textEmailAddress"
                 android:hint="Email"
                 android:layout_marginHorizontal="10dp"
@@ -171,7 +171,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="number"
                 android:hint="Projects Assigned"
                 android:layout_marginHorizontal="10dp"
@@ -192,7 +192,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_edittext"
+
                 android:inputType="number"
                 android:hint="Salary"
                 android:layout_marginHorizontal="10dp"
