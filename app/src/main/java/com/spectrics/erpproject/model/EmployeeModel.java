@@ -2,7 +2,7 @@ package com.spectrics.erpproject.model;
 
 public class EmployeeModel {
 
-    String name, id,phone,address, email,projects_assigned,salary,status;
+    String name, id,phone,address, email,projects_assigned,salary;
 
     public String getName() {
         return name;

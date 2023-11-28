@@ -51,24 +51,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginVertical="20dp">
+            android:layout_marginVertical="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CLient Name"
+                android:text="Client Name"
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:inputType="text"
                 android:hint="Client Name"
+                android:textSize="15sp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="10dp"
                 android:paddingLeft="10dp"
@@ -81,13 +81,13 @@
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:textSize="15sp"
                 android:inputType="number"
                 android:hint="Client Id"
                 android:layout_marginHorizontal="10dp"
@@ -102,13 +102,13 @@
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:textSize="15sp"
                 android:inputType="phone"
                 android:hint="Mobile Number"
                 android:layout_marginHorizontal="10dp"
@@ -123,15 +123,15 @@
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:inputType="text"
                 android:hint="Address"
+                android:textSize="15sp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="10dp"
                 android:paddingLeft="10dp"
@@ -144,15 +144,15 @@
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:inputType="textEmailAddress"
                 android:hint="Email"
+                android:textSize="15sp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="10dp"
                 android:paddingLeft="10dp"
@@ -165,15 +165,15 @@
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:inputType="date"
                 android:hint="Deadline"
+                android:textSize="15sp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="10dp"
                 android:paddingLeft="10dp"
@@ -186,15 +186,15 @@
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:inputType="number"
                 android:hint="Amount Paid"
+                android:textSize="15sp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="10dp"
                 android:paddingLeft="10dp"
@@ -207,14 +207,14 @@
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:inputType="text"
+                android:textSize="15sp"
                 android:hint="Project Description"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="10dp"
@@ -228,7 +228,7 @@
                 tools:ignore="MissingConstraints"
                 android:textColor="@color/blackTextColor"
                 android:layout_marginLeft="20dp"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 />
 
             <LinearLayout
@@ -242,11 +242,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/etImage"
-
                 android:inputType="text"
                 android:hint="Select pdf"
                 android:layout_marginHorizontal="10dp"
                 android:paddingLeft="10dp"
+                android:textSize="15sp"
                 android:layout_weight="1"
                 />
 
