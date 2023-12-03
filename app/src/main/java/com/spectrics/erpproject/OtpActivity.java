@@ -51,6 +51,8 @@ public class OtpActivity extends AppCompatActivity {
                     // if OTP field is not empty calling
                     // method to verify the OTP.
                     verifyCode(edtOTP.getText().toString());
+                    Intent intent = new Intent(OtpActivity.this, Dashboard.class);
+                    startActivity(intent);
                 }
             }
         });
